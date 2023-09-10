@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"proxy": " https://videochatcrio-ea33e0957b0b.herokuapp.com/",
+	
 	"dependencies": {
 		"@material-ui/core": "^4.11.3",
 		"@material-ui/icons": "^4.11.2",
@@ -21,6 +22,9 @@
 		"yarn": "^1.22.10",
 		"postcss-safe-parser": "5.0.2"
 	},
+	"engines": {
+		"node": "14.x"
+	  },
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
